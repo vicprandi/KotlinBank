@@ -1,5 +1,6 @@
 package bank.model
 
+import bank.account.Account
 import com.fasterxml.jackson.annotation.JsonIgnore
 import jakarta.persistence.*
 import java.time.LocalDate

@@ -1,11 +1,11 @@
-package bank.model
+package bank.transaction
 
+import bank.account.Account
 import bank.kafka.TransferStatus
 import com.fasterxml.jackson.annotation.JsonIgnore
 import com.fasterxml.jackson.annotation.JsonInclude
 import jakarta.persistence.*
 import jakarta.validation.constraints.DecimalMin
-import lombok.Data
 import java.math.BigDecimal
 
 @Entity

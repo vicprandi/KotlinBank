@@ -1,5 +1,7 @@
-package bank.model
+package bank.account
 
+import bank.model.Customer
+import bank.transaction.Transaction
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonInclude
 import jakarta.persistence.*
